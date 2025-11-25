@@ -15,15 +15,15 @@ It also provides pre-compiled binary files, allowing you to run inference on the
 ## 🎯 EYENIX NPU Lineup
 
 *EN675, EN683*  
-*It will be updated and shared in September.*
+*It will be updated and shared in December.*
 
 ## ✨ Models
 
-*It will be updated and shared in September.*
+*It will be updated and shared in December.*
 
 ## 🚀 Getting Start
 
-*It will be updated and shared in September.*
+*It will be updated and shared in December.*
 
 ## 📄 License
 
