@@ -12,7 +12,7 @@ These are publicly pre-trained models officially supported by the EYENIX Model Z
  
 |Model|TOP-1 Accuracy (FP32)|TOP-1 Accuracy (INT8)|TOP-5 Accuracy (FP32)|TOP-5 Accuracy (INT8)|Input Resolution(HxWxC)|Inference time|DRAM Usage|Compile Results|Cfg|
 |:-----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|mobilenetv2| 71.88%| 66.6%| 90.29%| 87.2%|224 x 224 x 3| 2.9ms| 16.36MB|[mobilenetv2.bin](-)|[mobilenetv2.cfg](-)|
+|mobilenetv2| 71.88%| 66.6%| 90.29%| 87.2%|224 x 224 x 3| 2.9ms| 16.36MB|[mobilenetv2.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/mobilenetv2.bin)|[mobilenetv2.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/mobilenetv2.cfg)|
 
 
 &#160;
