@@ -14,15 +14,15 @@ The EN675 NPU supports two **object detection release models**. Each model is av
 ### 🧩 **Class** : Person, Car, Motorbike, Bicycle, Truck, Bus
 
 
-|Model|Binary|Cfg|Total DRAM Size|Inference Time (Standard)|Inference Time (Boost)|
-|:-----:|:---:|:---:|:---:|:---:|:---:|
-|320_320_eyenix_model_v1|[od6class_320_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_320_v1.bin)|[od6class_320_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_320_v1.cfg)|11MB|26ms|13ms|
-|512_512_eyenix_model_v1|[od6class_512_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_v1.bin)|[od6class_512_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_v1.cfg)|18MB|37ms|20ms|
-|640_640_eyenix_model_v1|[od6class_640_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_640_v1.bin)|[od6class_640_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_640_v1.cfg)|25MB|54ms|29ms|
-|384_672_eyenix_model_v2|[od6class_384_672_v2.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v2.bin)|[od6class_384_672_v2.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v2.cfg)|22MB|63ms|28ms|
-|384_672_eyenix_model_v3 (tiny) - release|[od6class_384_672_v3_release.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3_release.bin)|[od6class_384_672_v3_release.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3_release.cfg)|30MB|80ms|39ms|
-|384_672_eyenix_model_v3 (tiny) - update|[od6class_384_672_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3.bin)|[od6class_384_672_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3.cfg)|30MB|80ms|39ms|
-|512_864_eyenix_model_v3 (tiny) - update|[od6class_512_864_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_864_v3.bin)|[od6class_512_864_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_864_v3.cfg)|46MB|131ms|61ms|
+|Model|Binary|Cfg|Total DRAM Size|Inference Time|
+|:-----:|:---:|:---:|:---:|:---:|
+|320_320_eyenix_model_v1|[od6class_320_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_320_v1.bin)|[od6class_320_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_320_v1.cfg)|11MB|13ms|
+|512_512_eyenix_model_v1|[od6class_512_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_v1.bin)|[od6class_512_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_v1.cfg)|18MB|20ms|
+|640_640_eyenix_model_v1|[od6class_640_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_640_v1.bin)|[od6class_640_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_640_v1.cfg)|25MB|29ms|
+|384_672_eyenix_model_v2|[od6class_384_672_v2.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v2.bin)|[od6class_384_672_v2.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v2.cfg)|22MB|28ms|
+|384_672_eyenix_model_v3 (tiny) - release|[od6class_384_672_v3_release.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3_release.bin)|[od6class_384_672_v3_release.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3_release.cfg)|30MB|40ms|
+|384_672_eyenix_model_v3 (tiny) - update|[od6class_384_672_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3.bin)|[od6class_384_672_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3.cfg)|30MB|40ms|
+|512_864_eyenix_model_v3 (tiny) - update|[od6class_512_864_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_864_v3.bin)|[od6class_512_864_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_864_v3.cfg)|46MB|62ms|
 
 
 &#160;
@@ -30,14 +30,14 @@ The EN675 NPU supports two **object detection release models**. Each model is av
 ### 🧩 **Class** : Face  
 
 
-|Model|Binary|Cfg|Total DRAM Size|Inference Time (Standard)|Inference Time (Boost)|
-|:-----:|:---:|:---:|:---:|:---:|:---:|
-|320_320_eyenix_model_face_v1|[face_320_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_320_v1.bin)|[face_320_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_320_v1.cfg)|12MB|22ms|11ms|
-|448_448_eyenix_model_face_v1|[face_448_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_448_v1.bin)|[face_448_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_448_v1.cfg)|23MB|50ms|20ms|
-|512_512_eyenix_model_face_v1|[face_512_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_512_v1.bin)|[face_512_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_512_v1.cfg)|31MB|68ms|26ms|
-|288_512_eyenix_model_face_v2|[face_288_512_v2.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v2.bin)|[face_288_512_v2.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v2.cfg)|14MB|38ms|17ms|
-|288_512_eyenix_model_face_v3 (tiny)|[face_288_512_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v3.bin)|[face_288_512_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v3.cfg)|21MB|50ms|25ms|
-|384_672_eyenix_model_face_v3 (tiny)|[face_384_672_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_384_672_v3.bin)|[face_384_672_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_384_672_v3.cfg)|29MB|81ms|40ms|
+|Model|Binary|Cfg|Total DRAM Size|Inference Time|
+|:-----:|:---:|:---:|:---:|:---:|
+|320_320_eyenix_model_face_v1|[face_320_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_320_v1.bin)|[face_320_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_320_v1.cfg)|12MB|11ms|
+|448_448_eyenix_model_face_v1|[face_448_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_448_v1.bin)|[face_448_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_448_v1.cfg)|23MB|21ms|
+|512_512_eyenix_model_face_v1|[face_512_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_512_v1.bin)|[face_512_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_512_v1.cfg)|31MB|26ms|
+|288_512_eyenix_model_face_v2|[face_288_512_v2.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v2.bin)|[face_288_512_v2.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v2.cfg)|14MB|17ms|
+|288_512_eyenix_model_face_v3 (tiny)|[face_288_512_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v3.bin)|[face_288_512_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v3.cfg)|21MB|25ms|
+|384_672_eyenix_model_face_v3 (tiny)|[face_384_672_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_384_672_v3.bin)|[face_384_672_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_384_672_v3.cfg)|29MB|40ms|
 
 > ⚠️ **Caution:** For the eyenix_face_model_v1, the maximum confidence score is **64** (not 256).  
 > Please update the ClassConfTH array in npu_conf.c accordingly to ensure correct behavior.
