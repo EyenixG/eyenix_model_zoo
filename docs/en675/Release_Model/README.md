@@ -14,33 +14,35 @@ The EN675 NPU supports two **object detection release models**. Each model is av
 ### 🧩 **Class** : Person, Car, Motorbike, Bicycle, Truck, Bus
 
 
-|Model|Binary|Cfg|Total DRAM Size|Inference Time|
-|:-----:|:---:|:---:|:---:|:---:|
-|320_320_eyenix_model_v1|[od6class_320_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_320_v1.bin)|[od6class_320_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_320_v1.cfg)|11MB|13ms|
-|512_512_eyenix_model_v1|[od6class_512_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_v1.bin)|[od6class_512_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_v1.cfg)|18MB|20ms|
-|640_640_eyenix_model_v1|[od6class_640_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_640_v1.bin)|[od6class_640_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_640_v1.cfg)|25MB|29ms|
-|384_672_eyenix_model_v2|[od6class_384_672_v2.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v2.bin)|[od6class_384_672_v2.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v2.cfg)|22MB|28ms|
-|384_672_eyenix_model_v3 (tiny) - release|[od6class_384_672_v3_release.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3_release.bin)|[od6class_384_672_v3_release.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3_release.cfg)|30MB|40ms|
-|384_672_eyenix_model_v3 (tiny) - update|[od6class_384_672_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3.bin)|[od6class_384_672_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3.cfg)|30MB|40ms|
-|512_864_eyenix_model_v3 (tiny) - update|[od6class_512_864_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_864_v3.bin)|[od6class_512_864_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_864_v3.cfg)|46MB|62ms|
-
+|Model|Binary|Cfg|HAAS Platform binary|Total DRAM Size|Inference Time|
+|:-----:|:---:|:---:|:---:|:---:|:---:|
+|320_320_eyenix_model_v1|[od6class_320_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_320_v1.bin)|[od6class_320_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_320_v1.cfg)|[320_320_eyenix_model_v1_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/320_320_eyenix_model_v1_haas_model.bin)|11MB|13ms|
+|512_512_eyenix_model_v1|[od6class_512_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_v1.bin)|[od6class_512_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_v1.cfg)|[512_512_eyenix_model_v1_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/512_512_eyenix_model_v1_haas_model.bin)|18MB|20ms|
+|640_640_eyenix_model_v1|[od6class_640_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_640_v1.bin)|[od6class_640_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_640_v1.cfg)|[640_640_eyenix_model_v1_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/640_640_eyenix_model_v1_haas_model.bin)|25MB|29ms|
+|384_672_eyenix_model_v2|[od6class_384_672_v2.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v2.bin)|[od6class_384_672_v2.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v2.cfg)|[672_384_eyenix_model_v2_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/672_384_eyenix_model_v2_haas_model.bin)|22MB|28ms|
+|384_672_eyenix_model_v3 (tiny) - release|[od6class_384_672_v3_release.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3_release.bin)|[od6class_384_672_v3_release.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3_release.cfg)|[EYENIX_MODEL_V3_6class_yolov7_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/EYENIX_MODEL_V3_6class_yolov7_haas_model.bin)|30MB|40ms|
+|384_672_eyenix_model_v3 (tiny) - update|[od6class_384_672_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3.bin)|[od6class_384_672_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_384_672_v3.cfg)|[384_672_6class_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/384_672_6class_haas_model.bin)|30MB|40ms|
+|512_864_eyenix_model_v3 (tiny) - update|[od6class_512_864_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_864_v3.bin)|[od6class_512_864_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/od6class_512_864_v3.cfg)|[512_864_6class_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/512_864_6class_haas_model.bin)|46MB|62ms|
+> ⚠️ **Caution:** 
+> HAAS Platform binary must be used build_unified_bin_ai_analog.py in NPU SDK. If you don't have NPU SDK, please contact EYENIX System Solution Part.
 
 &#160;
 ## **Face Detection Model**
 ### 🧩 **Class** : Face  
 
 
-|Model|Binary|Cfg|Total DRAM Size|Inference Time|
-|:-----:|:---:|:---:|:---:|:---:|
-|320_320_eyenix_model_face_v1|[face_320_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_320_v1.bin)|[face_320_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_320_v1.cfg)|12MB|11ms|
-|448_448_eyenix_model_face_v1|[face_448_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_448_v1.bin)|[face_448_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_448_v1.cfg)|23MB|21ms|
-|512_512_eyenix_model_face_v1|[face_512_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_512_v1.bin)|[face_512_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_512_v1.cfg)|31MB|26ms|
-|288_512_eyenix_model_face_v2|[face_288_512_v2.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v2.bin)|[face_288_512_v2.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v2.cfg)|14MB|17ms|
-|288_512_eyenix_model_face_v3 (tiny)|[face_288_512_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v3.bin)|[face_288_512_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v3.cfg)|21MB|25ms|
-|384_672_eyenix_model_face_v3 (tiny)|[face_384_672_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_384_672_v3.bin)|[face_384_672_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_384_672_v3.cfg)|29MB|40ms|
+|Model|Binary|Cfg|HAAS Platform binary|Total DRAM Size|Inference Time|
+|:-----:|:---:|:---:|:---:|:---:|:---:|
+|320_320_eyenix_model_face_v1|[face_320_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_320_v1.bin)|[face_320_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_320_v1.cfg)|[320_320_eyenix_model_face_v1_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/320_320_eyenix_model_face_v1_haas_model.bin)|12MB|11ms|
+|448_448_eyenix_model_face_v1|[face_448_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_448_v1.bin)|[face_448_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_448_v1.cfg)|[448_448_eyenix_model_face_v1_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/448_448_eyenix_model_face_v1_haas_model.bin)|23MB|21ms|
+|512_512_eyenix_model_face_v1|[face_512_v1.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_512_v1.bin)|[face_512_v1.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_512_v1.cfg)|[512_512_eyenix_model_face_v1_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/512_512_eyenix_model_face_v1_haas_model.bin)|31MB|26ms|
+|288_512_eyenix_model_face_v2|[face_288_512_v2.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v2.bin)|[face_288_512_v2.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v2.cfg)|[512_288_eyenix_model_face_v2_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/512_288_eyenix_model_face_v2_haas_model.bin)|14MB|17ms|
+|288_512_eyenix_model_face_v3 (tiny)|[face_288_512_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v3.bin)|[face_288_512_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_288_512_v3.cfg)|[face_512_288_v3_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/face_512_288_v3_haas_model.bin)|21MB|25ms|
+|384_672_eyenix_model_face_v3 (tiny)|[face_384_672_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_384_672_v3.bin)|[face_384_672_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/face_384_672_v3.cfg)|[face_672_384_v3_haas_model.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model_HAAS/face_672_384_v3_haas_model.bin)|29MB|40ms|
 
 > ⚠️ **Caution:** For the eyenix_face_model_v1, the maximum confidence score is **64** (not 256).  
-> Please update the ClassConfTH array in npu_conf.c accordingly to ensure correct behavior.
+> Please update the ClassConfTH array in npu_conf.c accordingly to ensure correct behavior.  
+> HAAS Platform binary must be used build_unified_bin_ai_analog.py in NPU SDK. If you don't have NPU SDK, please contact EYENIX System Solution Part.
 
 
 &#160;
