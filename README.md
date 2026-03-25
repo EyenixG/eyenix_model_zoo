@@ -13,12 +13,9 @@ It also provides pre-compiled binary files, allowing you to run inference on the
 
 
 ## 🎯 EYENIX NPU Lineup
-
 For detailed specs and real-world AI demos:  
 > [EN675 NPU Overview](./docs/en675/README.md)  
-
-*EN683*  
-*It will be updated and shared in December.*
+> [EN683 NPU Overview](./docs/en683/README.md)
 
 ## ✨ Models
 
@@ -34,14 +31,15 @@ Designed for high accuracy and reliability in production deployments.
 
 > **EN675 Public Models**: 
   - [Classification](./docs/en675/Public_Model/Classification_Models.md) | [Object Detection](./docs/en675/Public_Model/Object_Detection_Models.md)
+> **EN683 Public Models**: 
+  - [Classification](./docs/en683/Public_Model/Classification_Models.md) | [Object Detection](./docs/en683/Public_Model/Object_Detection_Models.md) | [Instance Segmentation](./docs/en683/Public_Model/Instance_Segmentation_Models.md) | [Pose Estimation](./docs/en683/Public_Model/Pose_Estimation_Models.md)
+  - [Face Recognition](./docs/en683/Public_Model/Face_Recognition_Models.md) | [Facial Landmark Detection](./docs/en683/Public_Model/Facial_Landmark_Detection_Models.md) | [Head Pose Estimation](./docs/en683/Public_Model/Head_Pose_Estimation_Models.md)  
 
 > **Release Models**:
 - [EN675 Release Models](./docs/en675/Release_Model/README.md)
-
-*EN683 will be updated and shared in December.*
+- [EN683 Release Models](./docs/en683/Release_Model/README.md)
 
 ## 🚀 Getting Start
-
 To get started with the models in this zoo:
 
 1. **Explore available models** using the links above under Public Models and Release Models. Choose a model that **fits your task** (e.g., classification, detection) and **performance requirements** (e.g., accuracy, size, inference speed).
