@@ -13,8 +13,6 @@ It supports fast INT8 inference across a wide range of AI tasks:
 
 - **Human Pose & Segmentation:** Pose Estimation, Instance Segmentation
 
-- **Image Enhancement:** Super Resolution, Image Denoising
-
 For detailed specifications, supported models, operations, and demo videos, refer to the [EN683 Overview](https://resonant-duke-420.notion.site/EN683-NPU-SDK-for-AI-21482f944b8680eb9af2dac75f51d186).
 
 
