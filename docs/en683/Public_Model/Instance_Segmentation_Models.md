@@ -13,8 +13,8 @@ Compare the original FP32(GPU) model accuracy with the INT8(NPU) accuracy optimi
 
 |Model|mAP(mask)IOU=[0.50:0.95:0.05] (FP32)|mAP(mask)IOU=[0.50:0.95:0.05] (INT8)| mAP(mask)IOU=[0.50] (FP32)|mAP(mask)IOU=[0.50] (INT8)|Input Resolution(HxWxC)|DRAM Usage|binary|binary(xz compress)|label_file|
 |:-----:|:---:|:---:|:---:|:---:|:-------:|:---:|:---:|:---:|:---:|
-|yolov8s-seg|36.5 |36.2 |58.1 |57.4 |640x640x3|22MB |[yolov8s_seg.bin]()  |[yolov8s_seg_xz.bin]()|[labels.txt]()|
-|yolov8m-seg|40.3 |39.9 |63.3 |62.5 |640x640x3|46MB |[yolov8m_seg.bin]()  |[yolov8m_seg_xz.bin]()|[labels.txt]()|
+|yolov8s-seg|36.5 |36.2 |58.1 |57.4 |640x640x3|22MB |[yolov8s_seg.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/yolov8s_seg.bin)  |[yolov8s_seg_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/yolov8s_seg_xz.bin)|[labels.txt](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/coco_label.txt)|
+|yolov8m-seg|40.3 |39.9 |63.3 |62.5 |640x640x3|46MB |[yolov8m_seg.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/yolov8m_seg.bin)  |[yolov8m_seg_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/yolov8m_seg_xz.bin)|[labels.txt](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/coco_label.txt)|
 
 ---
 &#160;

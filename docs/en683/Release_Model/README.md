@@ -17,7 +17,7 @@ The EN683 NPU supports two **object detection release models** based on the YOLO
 
 |Model|Train Dataset|Input Resolution(WxHxC)|Binary|Binary(xz compress)|label_file|Total DRAM Size|
 |:-----:|:---:|:---:|:---:|:---:|:---:|:---:|
-|yolov8s|EYENIX_DB_V2_6class|832x480x3|[od6class.bin]()|[od6class_xz.bin]()|[6class_labels.txt]()|19MB|
+|yolov8s|EYENIX_DB_V2_6class|832x480x3|[eyenix_6class.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/eyenix_6class.bin)|[eyenix_6class_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/eyenix_6class_xz.bin)|[6class_labels.txt](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/6class_labels.txt)|19MB|
 
 
 &#160;
@@ -26,7 +26,7 @@ The EN683 NPU supports two **object detection release models** based on the YOLO
 
 |Model  |Train Dataset|Input Resolution(WxHxC)|Binary|Binary(xz compress)|label_file|Total DRAM Size|
 |:-----:|:-----------:|:---------------------:|:----:|:---:|:---:|:---:|
-|yolov8s|EYENIX_DB_V2_face |832x480x3         |[face.bin]()|[face_xz.bin]()|[face_labels.txt]()|19MB|
+|yolov8s|EYENIX_DB_V2_face |832x480x3         |[eyenix_face.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/eyenix_face.bin)|[eyenix_face_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/eyenix_face_xz.bin)|[face_label.txt](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/face_label.txt)|19MB|
 
 
 &#160;

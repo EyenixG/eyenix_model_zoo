@@ -13,8 +13,8 @@ Compare the original FP32(GPU) model accuracy with the INT8(NPU) accuracy optimi
 
 |Model|mAP(pose)OKS=[0.50:0.95:0.05] (FP32)|mAP(pose)OKS=[0.50:0.95:0.05] (INT8)| mAP(pose)OKS=[0.50] (FP32)|mAP(pose)OKS=[0.50] (INT8)|Input Resolution(HxWxC)|DRAM Usage|binary|binary(xz compress)|label_file|
 |:-----:|:---:|:---:|:---:|:---:|:-------:|:---:|:---:|:---:|:---:|
-|yolov8s-pose|59.9 |56.1 |86.4 |85.3 |640x640x3|21MB |[yolov8s_pose.bin]()  |[yolov8s_pose_xz.bin]()|[labels.txt]()|
-|yolov8m-pose|65.0 |61.1 |88.7 |88.0 |640x640x3|40MB |[yolov8m_pose.bin]()  |[yolov8m_pose_xz.bin]()|[labels.txt]()|
+|yolov8s-pose|59.9 |56.1 |86.4 |85.3 |640x640x3|21MB |[yolov8s_pose.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/yolov8s_pose.bin)  |[yolov8s_pose_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/yolov8s_pose_xz.bin)|[pose_labels.txt](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/pose_labels.txt)|
+|yolov8m-pose|65.0 |61.1 |88.7 |88.0 |640x640x3|40MB |[yolov8m_pose.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/yolov8m_pose.bin)  |[yolov8m_pose_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/yolov8m_pose_xz.bin)|[pose_labels.txt](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/pose_labels.txt)|
 
 
 ---

@@ -14,7 +14,7 @@ Compare the original FP32(GPU) model accuracy with the INT8(NPU) accuracy optimi
 
 |Model|Accuracy (FP32)|Accuracy (INT8)|Input Resolution(HxWxC)|DRAM Usage|binary|binary(xz compress)|
 |:-----:|:---:|:---:|:---:|:-------:|:---:|:---:|
-| mobilefacenet     |99.07 |98.85 | 112x112x3  | 1.11 MB | [mobilefacenet.bin]()  | [mobilefacenet_xz.bin]()  |
+| mobilefacenet     |99.07 |98.85 | 112x112x3  | 1.11 MB | [mobilefacenet.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/mobilefacenet.bin)  | [mobilefacenet_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/mobilefacenet_xz.bin)  |
 
 
 &#160;
@@ -26,7 +26,7 @@ Compare the original FP32(GPU) model accuracy with the INT8(NPU) accuracy optimi
 
 |Model|Accuracy (FP32)|Accuracy (INT8)|Input Resolution(HxWxC)|DRAM Usage|binary|binary(xz compress)|
 |:-----:|:---:|:---:|:---:|:-------:|:---:|:---:|
-| FaceNet     |99.34 |99.23 | 160x160x3 | 23.11 MB | [facenet.bin]()  | [facenet_xz.bin]() |
+| FaceNet     |99.34 |99.23 | 160x160x3 | 23.11 MB | [facenet.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/facenet.bin)  | [facenet_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/facenet_xz.bin) |
 
 
 ---

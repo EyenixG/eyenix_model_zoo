@@ -14,7 +14,7 @@ Compare the original FP32(GPU) model accuracy with the INT8(NPU) accuracy optimi
 
 |Model|MAE (FP32)|MAE (INT8)|Input Resolution(HxWxC)|DRAM Usage|binary|binary(xz compress)|
 |:-----:|:---:|:---:|:---:|:-------:|:---:|:---:|
-| 6DRepNet     |4.6369 |4.6433 | 224x224x3 | 7.14 MB | [6drepnet.bin]() | [6drepnet_xz.bin]()  |
+| 6DRepNet     |4.6369 |4.6433 | 224x224x3 | 7.14 MB | [6drepnet.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/6drepnet.bin) | [6drepnet_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/6drepnet_xz.bin)  |
 
 
 ---
