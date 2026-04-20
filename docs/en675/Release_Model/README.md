@@ -1,13 +1,16 @@
 # Release Models
 The EN675 NPU supports two **object detection release models**. Each model is available with different input resolution sizes, allowing users to choose between higher accuracy or faster inference. Larger input sizes generally provide better detection performance, while smaller sizes offer lower latency—highlighting the trade-off between accuracy and speed.
 > **6-Class Object Detection Model**
-
 - Detects: Person, Car, Motorbike, Bicycle, Truck, Bus  
 - Optimized for multi-class detection in real-world surveillance scenarios
 
 > **Face Detection Model**
 - Detects: Face
 - Tailored for high-precision facial recognition tasks
+
+> **Person Detection Model**
+- Detects: Person
+- Tailored for reliable person localization in complex environments
 &#160;
 
 ## **6-Class Object Detection Model**
@@ -44,6 +47,17 @@ The EN675 NPU supports two **object detection release models**. Each model is av
 > Please update the ClassConfTH array in npu_conf.c accordingly to ensure correct behavior.  
 > HAAS Platform binary must be used build_unified_bin_ai_analog.py in NPU SDK. If you don't have NPU SDK, please contact EYENIX System Solution Part.
 
+&#160;
+## **Person Detection Model**
+### 🧩 **Class** : Person  
+
+
+|Model|Binary|Cfg|HAAS Platform binary|Total DRAM Size|Inference Time|
+|:-----:|:---:|:---:|:---:|:---:|:---:|
+|384_672_eyenix_model_person_v3 (tiny)|[person_384_672_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/person_384_672_v3.bin)|[person_384_672_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/person_384_672_v3.cfg)|[-]|29MB|40ms|
+|512_864_eyenix_model_person_v3 (tiny)|[person_512_864_v3.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/person_512_864_v3.bin)|[person_512_864_v3.cfg](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN675_Model/person_512_864_v3.cfg)|[-]|45MB|61ms|
+> ⚠️ **Caution:** 
+> HAAS Platform binary must be used build_unified_bin_ai_analog.py in NPU SDK. If you don't have NPU SDK, please contact EYENIX System Solution Part.
 
 &#160;
 
@@ -100,3 +114,14 @@ The EN675 NPU supports two **object detection release models**. Each model is av
 
 ### Model - 512x288 eyenix model v3 (tiny) - update
 <img src="https://github.com/user-attachments/assets/62e8ab39-39d3-46cc-8b1a-38622614df1e" width="500"/>
+
+&#160;
+
+### ▶ Person Model
+- **class** : person
+### Model - 672x384 eyenix model v3 (tiny)
+<img width="500" alt="kaipilger-architecture-2746846_result" src="https://github.com/user-attachments/assets/a0d3deaf-69f3-4f84-9821-cda6c6adc642" />
+
+### Model - 864x512 eyenix model v3 (tiny)
+<img width="500" alt="kaipilger-architecture-2746846_result" src="https://github.com/user-attachments/assets/1725922b-cefb-4664-ba81-31ac954957d1" />
+
