@@ -14,7 +14,7 @@ Compare the original FP32(GPU) model accuracy with the INT8(NPU) accuracy optimi
 
 |Model|Accuracy (FP32)|Accuracy (INT8)|Input Resolution(HxWxC)|DRAM Usage|binary|binary(xz compress)|
 |:-----:|:---:|:---:|:---:|:-------:|:---:|:---:|
-| PIPNet     |55.59 |51.91 | 256x256x3 | 10.73 MB | [pipnet.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/pipnet.bin)  | [pipnet_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/pipnet_xz.bin)  |
+| PIPNet     |55.59 |51.91 | 256x256x3 | 10.73 MB | [pipnet.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/pipnet_WFLW.bin)  | [pipnet_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/pipnet_WFLW_xz.bin)  |
 
 
 &#160;
