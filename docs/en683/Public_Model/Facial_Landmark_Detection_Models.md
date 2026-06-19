@@ -14,7 +14,7 @@ Compare the original FP32(GPU) model accuracy with the INT8(NPU) accuracy optimi
 
 |Model|Accuracy (FP32)|Accuracy (INT8)|Input Resolution(HxWxC)|DRAM Usage|binary|binary(xz compress)|
 |:-----:|:---:|:---:|:---:|:-------:|:---:|:---:|
-| PIPNet     |55.59 |51.91 | 256x256x3 | 10.73 MB | [pipnet.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/pipnet_WFLW.bin)  | [pipnet_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/pipnet_WFLW_xz.bin)  |
+| PIPNet     |55.59 |52.25 | 256x256x3 | 10.73 MB | [pipnet.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/pipnet_WFLW.bin)  | [pipnet_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/pipnet_WFLW_xz.bin)  |
 
 
 &#160;
@@ -25,7 +25,7 @@ Compare the original FP32(GPU) model accuracy with the INT8(NPU) accuracy optimi
 
 |Model|Accuracy (FP32)|Accuracy (INT8)|Input Resolution(HxWxC)|DRAM Usage|binary|binary(xz compress)|label_file|
 |:-----:|:---:|:---:|:---:|:---:|:-------:|:---:|:---:|
-| Blazeface     |Easy:87.71, Medium:81.67, Hard:63.91 |Easy:87.21, Medium:80.19, Hard:50.10 | 640x640x3  | 8.45MB | [blazeface.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/blazeface.bin) | [blazeface_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/blazeface_xz.bin) | [face_label.txt](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/face_label.txt) |
+| Blazeface     |Easy:87.71, Medium:81.67, Hard:63.91 |Easy:87.46, Medium:81.22, Hard:63.30 | 640x640x3  | 8.45MB | [blazeface.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/blazeface.bin) | [blazeface_xz.bin](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/blazeface_xz.bin) | [face_label.txt](https://github.com/EyenixG/eyenix_model_zoo/releases/download/EN683_MODEL/face_label.txt) |
 
 
 ---
